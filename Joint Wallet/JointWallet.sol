@@ -2,7 +2,7 @@ pragma solidity ^0.8.24;
 
 import "./Allowance.sol";
 
-contract SharedWallet is Allowance {
+contract JointWallet is Allowance {
     
     event moneySent(address indexed _toWhom, uint _amount);
     event moneyReceived(address indexed _fromWho, uint _amount);
